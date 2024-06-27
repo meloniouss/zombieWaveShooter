@@ -4,6 +4,7 @@
 #include <iostream>
 
 class gameLoop {
+
 public:
 	gameLoop();
 	~gameLoop();
@@ -13,8 +14,9 @@ public:
 	void render();
 	void close();
 	bool running() { return isRunning; };
+	SDL_Renderer* getRenderer() const { return gRenderer; }
 private:
+	SDL_Renderer* gRenderer;
 	bool isRunning;
 	SDL_Window* gWindow;
-	SDL_Renderer* gRenderer;
 };

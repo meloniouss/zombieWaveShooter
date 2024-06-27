@@ -1,9 +1,11 @@
 #include "player.hpp"
+#include "gameLoop.hpp"
+#include "TextureLoader.hpp"
 
 
 
 Player::Player() {
-
+	playerTex = TextureLoader::LoadTexture("assets/player.png", renderer);
 }
 Player::~Player() {}
 
