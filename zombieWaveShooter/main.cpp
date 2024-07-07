@@ -6,7 +6,7 @@ const int SCREEN_HEIGHT = 480;
 
 int main(int argc, char* argv[]) {
 	game = new gameLoop();
-	game->init("MELONIOUS ENGINE", 0, 0, SCREEN_WIDTH, SCREEN_HEIGHT, 0); 
+	game->init("GRAVITY SIM", 0, 0, SCREEN_WIDTH, SCREEN_HEIGHT, 0); 
 	while (game->running()) 
 	{
 		game->eventHandler();

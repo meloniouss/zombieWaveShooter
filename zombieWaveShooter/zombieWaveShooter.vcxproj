@@ -134,12 +134,13 @@
   <ItemGroup>
     <ClCompile Include="gameLoop.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="player.cpp" />
+    <ClCompile Include="Particle.cpp" />
+    <ClCompile Include="QuadTree.cpp" />
     <ClCompile Include="TextureLoader.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="gameLoop.hpp" />
-    <ClInclude Include="player.hpp" />
+    <ClInclude Include="Particle.hpp" />
     <ClInclude Include="TextureLoader.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
